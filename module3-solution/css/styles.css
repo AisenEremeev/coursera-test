@@ -1,0 +1,54 @@
+/* Общие настройки */
+body {
+  font-size: 16px;
+}
+
+/* Чтобы dropdown-меню на мобиле выглядело как отдельный блок */
+#collapsable-nav ul {
+  background-color: #f8f8f8; /* фон, отличающийся от контента */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#collapsable-nav ul li a {
+  text-align: center;
+}
+
+/* Заголовок страницы */
+h1 {
+  margin-bottom: 30px;
+}
+
+/* Секции меню */
+.menu-section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 30px;
+  min-height: 700px; /* достаточно высокий блок */
+}
+
+/* Немного разных фонов для секций */
+#chicken {
+  background-color: #fdf5f5;
+}
+
+#beef {
+  background-color: #f5fdf5;
+}
+
+#sushi {
+  background-color: #f5f7fd;
+}
+
+/* Ссылка Back to Top */
+.back-to-top {
+  margin-top: 20px;
+}
+
+.back-to-top a {
+  text-decoration: none;
+}
+
+.back-to-top a:hover {
+  text-decoration: underline;
+}

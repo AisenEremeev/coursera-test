@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Module 3 Solution - Food, LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 3 CSS -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR (scrolls away, НЕ fixed-top) -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand + toggle -->
+      <div class="navbar-header">
+        <!-- Mobile toggle button: visible only on xs -->
+        <button type="button"
+                class="navbar-toggle collapsed visible-xs"
+                data-toggle="collapse"
+                data-target="#collapsable-nav"
+                aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="#top">Food, LLC</a>
+      </div>
+
+      <!-- Collapsable nav menu (ONLY xs) -->
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right visible-xs">
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE CONTENT -->
+  <div class="container" id="top">
+    <!-- Page Heading -->
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center">Our Menu</h1>
+      </div>
+    </div>
+
+    <!-- 3 Sections: Chicken / Beef / Sushi -->
+    <div class="row">
+      <!-- Chicken -->
+      <section id="chicken"
+               class="col-md-4 col-sm-6 col-xs-12 menu-section">
+        <h3 class="text-center">Chicken</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Integer a vulputate nibh. Aenean dapibus, erat id hendrerit
+          sodales, magna ex tristique augue, et placerat magna urna non
+          mauris. Sed nec luctus mauris. Maecenas vulputate commodo
+          turpis, ut fringilla justo porttitor eu.
+        </p>
+        <p>
+          Suspendisse potenti. Donec vehicula pellentesque leo,
+          non vehicula arcu pharetra a. Vivamus eget volutpat lectus.
+          Vestibulum ante ipsum primis in faucibus orci luctus et
+          ultrices posuere cubilia curae; Proin finibus porta dictum.
+        </p>
+        <p class="back-to-top text-right">
+          <a href="#top">Back to Top</a>
+        </p>
+      </section>
+
+      <!-- Beef -->
+      <section id="beef"
+               class="col-md-4 col-sm-6 col-xs-12 menu-section">
+        <h3 class="text-center">Beef</h3>
+        <p>
+          Donec sit amet neque eget lorem euismod commodo.
+          Pellentesque habitant morbi tristique senectus et netus et
+          malesuada fames ac turpis egestas. Praesent vehicula
+          pellentesque arcu, nec mollis quam rhoncus ut.
+        </p>
+        <p>
+          Duis ut arcu id turpis dictum condimentum. Integer egestas
+          libero vitae nulla ullamcorper, in placerat ligula sagittis.
+          Curabitur varius tempor sapien, at auctor lacus porttitor sed.
+          Cras sagittis, est nec hendrerit porttitor, ex nibh
+          pellentesque tellus, nec blandit orci risus sed arcu.
+        </p>
+        <p class="back-to-top text-right">
+          <a href="#top">Back to Top</a>
+        </p>
+      </section>
+
+      <!-- Sushi -->
+      <section id="sushi"
+               class="col-md-4 col-sm-12 col-xs-12 menu-section">
+        <h3 class="text-center">Sushi</h3>
+        <p>
+          Morbi at dignissim urna. Maecenas dignissim tristique lectus,
+          non fermentum massa sollicitudin id. Etiam efficitur tortor
+          sed metus hendrerit, non mollis velit viverra.
+        </p>
+        <p>
+          Aliquam erat volutpat. Phasellus laoreet, purus eu sagittis
+          tempor, lorem velit malesuada erat, eget interdum nisi ipsum
+          ut ligula. Nulla vitae metus vitae magna dapibus sodales.
+          Vivamus luctus condimentum viverra. Integer vel volutpat
+          neque.
+        </p>
+        <p class="back-to-top text-right">
+          <a href="#top">Back to Top</a>
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <!-- jQuery + Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
